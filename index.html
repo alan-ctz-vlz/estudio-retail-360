@@ -228,11 +228,12 @@
   </footer>
 
 <!-- Botón flotante de WhatsApp -->
+<!-- Botón flotante de WhatsApp -->
 <a href="https://wa.me/521XXXXXXXXXX" 
    class="whatsapp-float" 
    target="_blank" 
    title="Chatea con nosotros en WhatsApp">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="32" height="32">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="32" height="32">
 </a>
 
 <style>
@@ -241,18 +242,22 @@
     bottom: 20px;
     right: 20px;
     background-color: #25D366;
-    color: white;
-    font-size: 26px;
-    padding: 12px 16px;
+    padding: 12px;
     border-radius: 50%;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     z-index: 1000;
     text-decoration: none;
-    transition: transform 0.2s ease;
+  }
+
+  .whatsapp-float img {
+    display: block;
+    width: 32px;
+    height: 32px;
   }
 
   .whatsapp-float:hover {
     transform: scale(1.1);
+    transition: transform 0.2s ease;
   }
 </style>
   
