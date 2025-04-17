@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudio Retail 360</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; font-family: 'Open Sans', sans-serif; background-color: #F3F4F6; color: #1C1C1C; }
+    nav { display: flex; justify-content: space-between; align-items: center; background-color: white; padding: 20px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+    nav .logo { display: flex; align-items: center; font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 1.2em; color: #1C3A4E; }
+    nav .logo img { height: 40px; margin-right: 10px; }
+    nav ul { list-style: none; display: flex; gap: 20px; margin: 0; padding: 0; }
+    nav ul li a { text-decoration: none; color: #1C3A4E; font-weight: bold; }
+    nav .social-icons { display: flex; align-items: center; }
+    nav .social-icons a { margin-left: 15px; text-decoration: none; color: #1C3A4E; font-size: 1.2em; }
+    nav .language-switch { margin-left: 30px; font-size: 0.9em; }
+    nav .language-switch a { margin-left: 10px; color: #1C3A4E; text-decoration: underline; }
+    header { background-color: #1C3A4E; color: white; text-align: center; padding: 60px 20px; }
+    header h1 { font-family: 'Montserrat', sans-serif; font-size: 3em; margin: 0; }
+    .cta-boton { display: inline-block; background-color: #F97316; color: white; padding: 14px 24px; border-radius: 30px; font-size: 16px; font-weight: bold; text-decoration: none; margin-top: 20px; transition: background-color 0.3s ease, transform 0.2s ease; }
+    .cta-boton:hover { background-color: #e05c10; transform: scale(1.05); }
+    section { padding: 60px 20px; max-width: 1100px; margin: auto; }
+    h2 { font-family: 'Montserrat', sans-serif; font-size: 2em; color: #F97316; }
+    .servicios, .proceso { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); }
+    footer { background-color: #1C3A4E; color: white; text-align: center; padding: 40px 20px; }
+    input, textarea, button { width: 100%; padding: 10px; margin-top: 10px; border: 1px solid #ccc; border-radius: 4px; font-family: 'Open Sans', sans-serif; }
+    button { background-color: #F97316; color: white; border: none; cursor: pointer; }
+    button:hover { background-color: #e05c10; }
+    .whatsapp-float { position: fixed; bottom: 20px; right: 20px; background-color: #25D366; padding: 12px; border-radius: 50%; box-shadow: 0 4px 10px rgba(0,0,0,0.3); z-index: 1000; text-decoration: none; }
+    .whatsapp-float img { display: block; width: 32px; height: 32px; }
+    .whatsapp-float:hover { transform: scale(1.1); transition: transform 0.2s ease; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Logo_estilo_moderno.svg/1200px-Logo_estilo_moderno.svg.png" alt="Logo">
+      Estudio Retail 360
+    </div>
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#packages">Packages</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="social-icons">
+      <a href="#" target="_blank">🔵</a>
+      <a href="#" target="_blank">🐦</a>
+      <a href="#" target="_blank">💼</a>
+      <div class="language-switch">
+        <a href="index.html">ES</a> | <a href="index-en.html">EN</a>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Estudio Retail 360</h1>
+    <p>Everything your business needs to start, grow, and stand out</p>
+    <a href="#contact" class="cta-boton">Let's Start Your Project</a>
+  </header>
+
+  <section id="services">
+    <h2>What We Do</h2>
+    <div class="servicios">
+      <div class="card">
+        <h3>Branding & Design</h3>
+        <p>From brand identity to retail interior design, we create experiences that connect with your audience.</p>
+      </div>
+      <div class="card">
+        <h3>Marketing & Positioning</h3>
+        <p>Social media, digital campaigns, SEO, and market research to help your brand stand out.</p>
+      </div>
+      <div class="card">
+        <h3>Physical Advertising</h3>
+        <p>Printed materials, signage, in-store activations, and custom-made displays to shine in physical spaces.</p>
+      </div>
+      <div class="card">
+        <h3>Business Technology</h3>
+        <p>Online stores, CRM systems, interactive solutions, and tailored digital tools.</p>
+      </div>
+    </div>
+    <a href="#contact" class="cta-boton">Request a Quote</a>
+  </section>
+
+  <section id="packages">
+    <h2>360 Packages</h2>
+    <div class="servicios">
+      <div class="card">
+        <h3>Starter Pack</h3>
+        <p>Logo, branding, social media setup, and landing page. Perfect for launching your brand from scratch.</p>
+      </div>
+      <div class="card">
+        <h3>Full Retail Pack</h3>
+        <p>Interior design, furniture, commercial strategy, and digital presence.</p>
+      </div>
+      <div class="card">
+        <h3>Digital Pack</h3>
+        <p>Website, e-commerce, SEO, social media management, and digital advertising.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <h2>Our Process</h2>
+    <div class="proceso">
+      <div class="card">
+        <h3>1. Discovery</h3>
+        <p>We listen to your idea and analyze your market and competition.</p>
+      </div>
+      <div class="card">
+        <h3>2. Custom Strategy</h3>
+        <p>We design a personalized comprehensive package for your business.</p>
+      </div>
+      <div class="card">
+        <h3>3. Implementation</h3>
+        <p>We execute every part: brand, environment, and technology.</p>
+      </div>
+      <div class="card">
+        <h3>4. Launch</h3>
+        <p>We deliver everything ready to operate and grow, including support.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <textarea rows="4" placeholder="Tell us about your project"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <a href="#contact" class="cta-boton">Tell Us Your Idea</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Estudio Retail 360 · Integrated business solutions</p>
+  </footer>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/521XXXXXXXXXX" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="32" height="32">
+  </a>
+
+</body>
+</html>
+
